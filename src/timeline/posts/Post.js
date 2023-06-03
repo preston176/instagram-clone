@@ -27,7 +27,7 @@ function Post({user, postImage, likes, timestamp}) {
                 <BookmarkBorder className='postIcon' />
             </div>
         </div>
-            Liked by 21 People.
+            Liked by {likes} People.
         </div>
 
     </div>

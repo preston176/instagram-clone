@@ -30,7 +30,7 @@ function Timeline() {
       <div className='timeline__posts'>
     
     {posts.map(post => (
-      <Post user={post.user} postImage={post.postImage} like={post.likes} timestamp={post.timestamp} />
+      <Post user={post.user} postImage={post.postImage} likes={post.likes} timestamp={post.timestamp} />
     ))}
 
       </div>
