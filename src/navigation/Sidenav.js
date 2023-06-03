@@ -15,35 +15,43 @@ function Sidenav() {
     <img className='sidenav__logo' src="https://www.pngkey.com/png/detail/1-14166_png-icon-px-instagram-line-icon-png.png alt='instagram-logo'"></img>
 
 <div className='sidenav__buttons'>
-    <div className='side__button'>
+    <button className='sidenav__button'>
     <HomeIcon />
         <span>Home</span>
-    </div>
-    <div className='side__button'>
+    </button>
+    <button className='sidenav__button'>
     <SearchIcon />
         <span>Search</span>
-    </div>
-    <div className='side__button'>
+    </button>
+    <button className='sidenav__button'>
     <ExploreIcon />
         <span>Explore</span>
-    </div>
-    <div className='side__button'>
+    </button>
+    <button className='sidenav__button'>
     <SlideshowIcon />
         <span>Reels</span>
-    </div>
-    <div className='side__button'>
+    </button>
+    <button className='sidenav__button'>
     <ChatIcon />
         <span>Messages</span>
-    </div>
+    </button>
 
-    <div className='side__button'>
+    <button className='sidenav__button'>
     <FavoriteBorderIcon />
         <span>Notifications</span>
-    </div>
-    <div className='side__button'>
+    </button>
+    <button className='sidenav__button'>
     <AddCircleOutlineIcon />
         <span>Create</span>
-    </div>
+    </button>
+
+</div>
+
+<div className='sidenav__more'>
+<button className='sidenav__button'>
+    <MenuIcon />
+    <span>More</span>
+    </button>
 </div>
     </div>
   )
