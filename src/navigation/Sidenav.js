@@ -12,7 +12,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Sidenav() {
   return (
     <div className='sidenav'>
-    <img className='sidenav__logo' src="https://www.pngkey.com/png/detail/1-14166_png-icon-px-instagram-line-icon-png.png alt='instagram-logo'"></img>
+    <img className='sidenav__logo' src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/instagram-text-icon.svg"></img>
 
 <div className='sidenav__buttons'>
     <button className='sidenav__button'>
