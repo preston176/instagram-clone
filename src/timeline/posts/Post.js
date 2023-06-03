@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Post.css"
 import { Avatar } from '@mui/material'
-import { BookmarkBorder, ChatBubbleOutline, Favorite, FavoriteBorder, MoreHoriz, Telegram } from '@mui/icons-material'
+import { BookmarkBorder, ChatBubbleOutline, FavoriteBorder, MoreHoriz, Telegram } from '@mui/icons-material'
 
 function Post({user, postImage, likes, timestamp}) {
   return (
