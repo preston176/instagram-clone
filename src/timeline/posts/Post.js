@@ -3,18 +3,18 @@ import "./Post.css"
 import { Avatar } from '@mui/material'
 import { BookmarkBorder, ChatBubbleOutline, Favorite, FavoriteBorder, MoreHoriz, Telegram } from '@mui/icons-material'
 
-function Post() {
+function Post({user, postImage, likes, timestamp}) {
   return (
     <div className='post'>
         <div className='post__header'>
             <div className='post__headerAuthor'>
-            <Avatar>P</Avatar>
-            pres_ . <span>12h</span>
+            <Avatar>{user.charAt(0).toUpperCase()}</Avatar>
+            {user} . <span>{timestamp}</span>
             </div>
         <MoreHoriz />
         </div>
         <div className='post__image'>
-        <img src='https://images.pexels.com/photos/4099817/pexels-photo-4099817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='post-image1'></img>
+        <img src={postImage} alt='post-image1'></img>
         </div>
         <div className='post__footer'>
         <div className='post__footerIcons'>
